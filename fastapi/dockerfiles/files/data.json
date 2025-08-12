@@ -1,0 +1,69 @@
+{
+  "columns": [
+    "acousticness",
+    "danceability",
+    "duration",
+    "energy",
+    "instrumentalness",
+    "key",
+    "liveness",
+    "loudness",
+    "mode",
+    "speechiness",
+    "tempo",
+    "time_signature",
+    "valence",
+    "label"
+  ],
+  "columns_after_scaling": [
+    "speechiness",
+    "energy",
+    "danceability",
+    "acousticness",
+    "label"
+  ],
+  "date": "2024/12/10-15:37:02",
+  "columns_dtypes": {
+    "acousticness": "float64",
+    "danceability": "float64",
+    "duration": "int64",
+    "energy": "float64",
+    "instrumentalness": "float64",
+    "key": "int64",
+    "liveness": "float64",
+    "loudness": "float64",
+    "mode": "int64",
+    "speechiness": "float64",
+    "tempo": "float64",
+    "time_signature": "int64",
+    "valence": "float64",
+    "label": "int64"
+  },
+  "columns_dtypes_after_scaling": {
+    "speechiness": "float64",
+    "energy": "float64",
+    "danceability": "float64",
+    "acousticness": "float64",
+    "label": "int64"
+  },
+  "train_observations": 515,
+  "test_observations": 221,
+  "feature_names": [
+    "speechiness",
+    "energy",
+    "danceability",
+    "acousticness"
+  ],
+  "mean": [
+    0.09837436893203884,
+    0.6005843689320387,
+    0.5978873786407768,
+    0.35430594522330094
+  ],
+  "std": [
+    0.10362009293972085,
+    0.2522462927990723,
+    0.17633829282783184,
+    0.3348907359437669
+  ]
+}
