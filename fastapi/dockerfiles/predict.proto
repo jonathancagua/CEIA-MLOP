@@ -1,0 +1,23 @@
+// fastapi/predict.proto
+syntax = "proto3";
+
+package predict;
+
+service Predictor
+{
+    rpc Predict(PredictRequest) returns(PredictResponse);
+}
+
+message PredictRequest
+{
+    double speechiness = 1;
+    double energy = 2;
+    double danceability = 3;
+    double acousticness = 4;
+}
+
+message PredictResponse
+{
+    bool int_output = 1;
+    string str_output = 2;
+}
