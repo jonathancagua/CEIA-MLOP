@@ -1,7 +1,3 @@
-Perfecto 🚀, aquí tienes el **README completo** en el mismo formato que me diste, pero ya con **GraphQL** y **gRPC** añadidos en la sección de componentes y accesos:
-
----
-
 # Predicción de Preferencia de Canciones en Spotify
 
 ### Miembros del Equipo del Proyecto
