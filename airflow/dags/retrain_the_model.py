@@ -11,7 +11,7 @@ if it performs  better than the old one. It uses the F1 score to evaluate the mo
 """
 
 default_args = {
-    'owner': "Jonathan-Luciano-Ignacio",
+    'owner': "Jonathan-Juan",
     'depends_on_past': False,
     'schedule_interval': None,
     'retries': 1,
